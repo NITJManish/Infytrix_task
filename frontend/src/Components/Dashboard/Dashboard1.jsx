@@ -14,7 +14,6 @@ const Dashboard1 = () => {
 
     return (
         <>
-
             <div className='container'>
             <LineGraph saledata={data?.sales}/> 
             <BarGraph saledata={data?.sales} />
